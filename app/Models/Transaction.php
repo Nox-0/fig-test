@@ -1,0 +1,10 @@
+<?php
+declare(strict_types=1);
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Transaction extends Model
+{
+    protected $fillable = ['quantity', 'unit_price', 'type', 'date'];
+}

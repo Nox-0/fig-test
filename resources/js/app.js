@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Vuesax from 'vuesax';
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 import routes from './routes';
 
-import 'vuesax/dist/vuesax.css' //Vuesax styles
-Vue.use(Vuesax);
+Vue.use(ElementUI);
 
 Vue.use(VueRouter);
 
