@@ -1,12 +1,14 @@
 #Dan's awesome coding thing
 
-To run the app, first run `npm install` to install all npm packages, run `php artisan migrate` to run the database
-migrations, then run `php artisan serve` to start the server and in another terminal window run `npm run dev` to build
-the frontend.
+To run the app, first run `npm install` to install all npm packages, `composer install`, install mysql with
+`brew install mysql` if you don't have it. `brew services start mysql`, `mysql -u root` and then create the database,
+name it, check the `.env.example` file for what most of your fields should look like. Run `php artisan migrate` to run
+the database migrations, then run `php artisan serve` to start the server and in another terminal window run
+`npm run dev` to build the frontend.
 
 To run the tests you need to run `php artisan test`. Or don't! Your life, I'm not one to dictate how you should live it
 
-I think that'd work? You may need to run some sort of mysql stuff to get the database, I've got no clue how that would
+I think that'd work? You may need to run some sort of *magic* mysql stuff to get the database, I've got no clue how that would
 work on someone else's computer. It works on mine! :)
 
 Also it uses php 7.3.29-to-be-removed-in-future-macOS
