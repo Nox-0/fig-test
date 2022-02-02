@@ -1,7 +1,8 @@
 #Dan's awesome coding thing
 
-To run the app, first run `npm install` to install all npm packages,
-then run `php artisan serve` to start the server and in another terminal window run `npm run dev` to build the frontend.
+To run the app, first run `npm install` to install all npm packages, run `php artisan migrate` to run the database
+migrations, then run `php artisan serve` to start the server and in another terminal window run `npm run dev` to build
+the frontend.
 
 To run the tests you need to run `php artisan test`. Or don't! Your life, I'm not one to dictate how you should live it
 
